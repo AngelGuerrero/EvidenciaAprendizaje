@@ -1,2 +1,8 @@
 ﻿  main.c
-  EvidenciaAprendizajeU4.vcxproj -> C:\Users\admin\GitHub\EvidenciaAprendizaje\EvidenciaAprendizajeU4\Debug\EvidenciaAprendizajeU4.exe
+c:\users\admin\dropbox\tareas\fundamentosprogramacion\unidad 4\evidenciaaprendizaje\evidenciaaprendizajeu4\evidenciaaprendizajeu4\main.c(120): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\dropbox\tareas\fundamentosprogramacion\unidad 4\evidenciaaprendizaje\evidenciaaprendizajeu4\evidenciaaprendizajeu4\main.c(125): warning C4013: 'gets' undefined; assuming extern returning int
+c:\users\admin\dropbox\tareas\fundamentosprogramacion\unidad 4\evidenciaaprendizaje\evidenciaaprendizajeu4\evidenciaaprendizajeu4\main.c(128): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\dropbox\tareas\fundamentosprogramacion\unidad 4\evidenciaaprendizaje\evidenciaaprendizajeu4\evidenciaaprendizajeu4\main.c(147): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\dropbox\tareas\fundamentosprogramacion\unidad 4\evidenciaaprendizaje\evidenciaaprendizajeu4\evidenciaaprendizajeu4\main.c(163): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\dropbox\tareas\fundamentosprogramacion\unidad 4\evidenciaaprendizaje\evidenciaaprendizajeu4\evidenciaaprendizajeu4\main.c(220): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  EvidenciaAprendizajeU4.vcxproj -> C:\Users\admin\Dropbox\Tareas\FundamentosProgramacion\Unidad 4\EvidenciaAprendizaje\EvidenciaAprendizajeU4\Debug\EvidenciaAprendizajeU4.exe
