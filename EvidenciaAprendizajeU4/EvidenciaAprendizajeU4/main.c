@@ -5,7 +5,13 @@
 	Se requiere un programa que dada una fracción se calcule y muestre
 	la expresión máxima de la misma. 
 
-	Fecha de modificación: 9 de Marzo de 2016
+	Fecha de modificación: 14 de Marzo de 2016
+
+	Versión del programa: En esta versión del programa se implementan principalmente los arreglos y las estructuras
+	donde se encuentran implementadas los arreglos es en la lectura de datos del usuario, los datos se guarda en una
+	cadena de caracteres en donde después se compara si ha ingresado únicamente números. 
+
+	Después se calculan los datos, "empaquetándolos" en una estructura.
 */
 #include <stdio.h>
 #include <stdlib.h>
