@@ -9,9 +9,12 @@
 
 	Características del programa: 
 	
-	Versión del programa: En esta versión del programa se implementan principalmente los arreglos y las estructuras
-	donde se encuentran implementadas los arreglos es en la lectura de datos del usuario, los datos se guarda en una
-	cadena de caracteres en donde después se compara si ha ingresado únicamente números. 
+	Versión del programa: En esta versión del programa se implementan 
+	principalmente los arreglos y las estructuras
+	donde se encuentran implementadas los arreglos es en la lectura de datos del
+	usuario, los datos se guarda en una cadena de caracteres en donde después 
+	se compara si ha ingresado únicamente 
+	números. 
 
 	Después se calculan los datos, "empaquetándolos" en una estructura.
 	
@@ -25,9 +28,10 @@
 #define MAX_STRLEN 50
 
 /* Variables globales */
-char cad_numerador[MAX_STRLEN] = { '\0' };
+char cad_numerador[MAX_STRLEN] 	 = { '\0' };   
 char cad_denominador[MAX_STRLEN] = { '\0' };
-char datosIngresados[MAX_STRLEN] = { '\0' };
+char datosIngresados[MAX_STRLEN] = { '\0' };   
+
 int datosAprovados = 0; /* Ok = 0 */
 const char titulo[] = { "\n\t\tPrograma Simplificar Fraccion\n\n" };
 char opcion = ' ';
@@ -37,9 +41,9 @@ static int divisor = 2;
 char A = 181;
 char a = 160;
 char e = 130;
-char iacen = 161;
 char o = 162;
 char u = 163;
+char iacen = 161;
 
 /* Declaración de estructuras */
 struct NumDen
@@ -89,6 +93,7 @@ main()
 				}
 			}
 		} while (datosAprovados);
+		printf("Expresi%cn ingresada: %s\n", o, datosIngresados);
 		
 		/* Toma los números que se localizan antes del / y después del mismo signo */
 		int posicion = 0;	/* variable que toma la posición que tiene el signo '/' para copiar el denomiandor */
