@@ -235,8 +235,6 @@ void demo()
 void menuSalir()
 {
 	char c = '\0';
-	char leerComando[] = { '\0' };
-	int i = 0;
 	printf("Desea volver a calcular? [s / n]\n");
 	for (;;)
 	{
