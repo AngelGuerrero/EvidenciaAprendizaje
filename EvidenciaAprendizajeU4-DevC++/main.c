@@ -1,17 +1,19 @@
 /*
 Programa: Simplifica-Fracci?n
-Programador: ?ngel Guerrero
+Programador: Angel Guerrero
 Descripci?n del programa:
 Se requiere un programa que dada una fracci?n se calcule y muestre
-la expresi?n m?xima de la misma.
+la expresi?n maxima de la misma.
 
-Fecha de modificaci?n: 12 de Marzo de 2016
+Fecha de modificacion: 16 de Marzo de 2016
 */
-#include "rlutil.h"
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>	/* rand()*/
 #include <conio.h>
+
+#include "rlutil.h"
 
 /* Definiciones */
 #define MAX_STRLEN 10
@@ -236,8 +238,7 @@ void demo()
 void menuSalir()
 {
 	char c = '\0';
-	char leerComando[] = { '\0' };
-	int i = 0;
+
 	printf("Desea volver a calcular? [s / n]\n");
 	for (;;)
 	{
