@@ -50,9 +50,9 @@ main()
 	struct NumDen Dato;
 
 	/* Primero muestra el men?*/
-	setColor(WHITE);
-	setBackgroundColor(BLACK);
-	cls();
+	setColor(WHITE);  				/* Letras blancas */
+	setBackgroundColor(BLACK);      /* Fondo negro */
+	cls();                          /* Limpia pantalla */
 	printf("%s", titulo);
 	printf("a) Ayuda\
 			\nb) Comenzar\
